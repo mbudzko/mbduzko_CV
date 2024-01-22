@@ -225,4 +225,20 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 900px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondary-info {
+    border-left: none;
+    border-top: 1px solid;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+  }
+}
 </style>
