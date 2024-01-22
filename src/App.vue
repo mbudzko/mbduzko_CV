@@ -155,7 +155,7 @@ const jobs = [
           </div>
           <div>
             CV Repository: <a
-              href="https://github.com/mbudzko/"
+              href="https://github.com/mbudzko/mbudzko_CV"
               target="_blank"
             > Click! </a>
           </div>
@@ -167,7 +167,7 @@ const jobs = [
           This CV is a small VueJs app
         </div>
         <div>
-          Check out web version <a href="">here</a>
+          Check out web version <a href="https://mbudzko.github.io/mbudzko_CV/" target="_blank">here</a>
         </div>
       </div>
     </div>
