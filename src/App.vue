@@ -11,6 +11,7 @@ const jobs = [
     position: 'Senior Software Engineer',
     description: 'Module owner. Development of the owned module, integration with other modules, prototyping, planning, components development, development and integration of new features, working with a product and design teams, support of the product.',
     startDate: 'October 2022',
+    endDate: 'Feb 2024',
     linkedinLink: 'https://www.linkedin.com/company/sensehawk'
   },
   {
@@ -131,7 +132,7 @@ const jobs = [
           </div>
           <div>
             Email:
-            <a href="mailto: budzkomaksim@gmail.com">
+            <a href="mailto:budzkomaksim@gmail.com">
               budzkomaksim@gmail.com
             </a>
           </div>
@@ -167,7 +168,10 @@ const jobs = [
           This CV is a small VueJs app
         </div>
         <div>
-          Check out web version <a href="https://mbudzko.github.io/mbudzko_CV/" target="_blank">here</a>
+          Check out web version <a
+            href="https://mbudzko.github.io/mbudzko_CV/"
+            target="_blank"
+          >here</a>
         </div>
       </div>
     </div>
