@@ -42,21 +42,51 @@ const jobs = [
         </h1>
         <h2>Senior Software Engineer</h2>
       </div>
-      <div>
+      <section>
         <h3>
-          Summary
+          SUMMARY
         </h3>
         <p>
-          Results-oriented senior software engineer with over 4 years of experience specialising in front-end development.
-          Skilled in VueJs, JavaScript, HTML, and CSS, with a strong problem-solving ability.
-          Currently working as a senior-level developer at SenseHawk Inc, responsible for a module of a commercial solar application.
-          Proven track record of successfully delivering projects across various domains, including mobile PWAs, NFT platform, and small commercial web apps.
+          Dedicated Frontend Engineer with over 4 years of hands-on experience specializing in Vue.js, proficient in both Vue 3 and Vue 2 frameworks. Possesses a strong aptitude for problem-solving, consistently delivering innovative solutions to complex challenges. Known for exemplary work ethic and adeptness in collaborating within team environments. Experienced in diverse project landscapes encompassing various architectural paradigms. Demonstrates a keen ability to adapt and thrive in dynamic work settings while maintaining a high standard of quality and efficiency.
         </p>
-      </div>
+      </section>
 
-      <div>
+      <section>
         <h3>
-          Skills
+          CAREER ACCOMPLISHMENTS
+        </h3>
+        <ul>
+          <li>
+            <p>
+              Spearheaded numerous significant migrations from Vue 2 to Vue 3, demonstrating adeptness in navigating transitions between versions and ensuring seamless continuity in project development and functionality.
+            </p>
+          </li>
+          <li>
+            <p>
+              Played a pivotal role in the enhancement and optimization of a custom-fields feature at SenseHawk, contributing to a substantial improvement in user experience and product performance.
+            </p>
+          </li>
+          <li>
+            <p>
+              Led a team of two developers, providing guidance, mentorship, and fostering a collaborative environment conducive to innovation and productivity.
+            </p>
+          </li>
+          <li>
+            <p>
+              Owned a critical module within projects, showcasing autonomy, responsibility, and a thorough understanding of project components and dependencies.
+            </p>
+          </li>
+          <li>
+            <p>
+              Collaborated closely with product teams and designers to identify and address performance-related issues in Serial Numbers management, resulting in streamlined processes and enhanced system efficiency.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>
+          SKILLS
         </h3>
         <div style="padding-left: 1rem;">
           <h5 style="margin-bottom: 0;">
@@ -79,9 +109,9 @@ const jobs = [
             :label="skill"
           />
         </div>
-      </div>
+      </section>
 
-      <div>
+      <section>
         <h3>
           Experience
         </h3>
@@ -97,9 +127,9 @@ const jobs = [
             :linkedin-link="job.linkedinLink"
           />
         </div>
-      </div>
+      </section>
 
-      <div>
+      <section>
         <h3> Education </h3>
 
         <div class="education">
@@ -113,7 +143,7 @@ const jobs = [
             Yanka Kupala State University of Grodno: Mathematics and Informatics faculty, Computer Security.
           </div>
         </div>
-      </div>
+      </section>
     </div>
     <div class="secondary-info ta-start">
       <div>
@@ -122,7 +152,7 @@ const jobs = [
         </h4>
         <div class="subtitle">
           <div>
-            Address: Poland, Wroclaw
+            Address: Wroclaw, Poland
           </div>
           <div>
             Phone:
