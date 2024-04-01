@@ -209,6 +209,10 @@ const jobs = [
 </template>
 
 <style lang="scss" scoped>
+h3 {
+  text-transform: uppercase;
+}
+
 a {
   font-weight: 500;
 }
