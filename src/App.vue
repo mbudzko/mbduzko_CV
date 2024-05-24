@@ -7,6 +7,14 @@ const secondary = ['Git', 'npm', '(yarn/pnpm)', 'Webpack', 'Babel', 'Responsive 
 
 const jobs = [
   {
+    title: 'Lambda Factor',
+    position: 'Senior Software Engineer',
+    description: 'Consulting, different types of projects.',
+    startDate: 'April 2024',
+    endDate: 'Current',
+    linkedinLink: 'https://www.linkedin.com/company/lambdafactor'
+  },
+  {
     title: 'SenseHawk, Inc',
     position: 'Senior Software Engineer',
     description: 'Module owner. Development of the owned module, integration with other modules, prototyping, planning, components development, development and integration of new features, working with a product and design teams, support of the product.',
