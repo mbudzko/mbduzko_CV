@@ -2,8 +2,8 @@
 import SkillChip from "./components/SkillChip.vue";
 import WorkCard from "./components/WorkCard.vue";
 
-const skills = ['VueJs', 'Vue2', 'Vue3', 'Javascript', 'NodeJS', 'Typescript', 'Vite', 'Vuex', 'Pinia', 'Jest', 'Vuetify', 'Quasar', 'HTML5', 'CSS', 'SCSS', 'SASS'];
-const secondary = ['Git', 'npm', '(yarn/pnpm)', 'Webpack', 'Babel', 'Responsive Design', 'SSR', 'ESR', 'PWA', 'TDD', 'Agile', 'Jira/Confluence', 'ClickUp', 'VSCode', 'Webstorm',]
+const skills = ['VueJs', 'Vue2', 'Vue3', 'Javascript', 'NodeJS', 'Typescript', 'Vite', 'Vuex', 'Pinia', 'Jest', 'Vuetify', 'Quasar', 'KonvaJs', 'Canvas', 'HTML5', 'CSS', 'SCSS', 'SASS'];
+const secondary = ['Git', 'npm', '(yarn/pnpm)', 'Github', 'Gitlab', 'CI/CD', 'Webpack', 'Babel', 'Responsive Design', 'SSR', 'ESR', 'PWA', 'TDD', 'Agile', 'Jira/Confluence', 'ClickUp', 'VSCode', 'Webstorm',]
 
 const jobs = [
   {
