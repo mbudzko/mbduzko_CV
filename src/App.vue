@@ -2,10 +2,18 @@
 import SkillChip from "./components/SkillChip.vue";
 import WorkCard from "./components/WorkCard.vue";
 
-const skills = ['VueJs', 'Vue2', 'Vue3', 'Javascript', 'NodeJS', 'Typescript', 'Vite', 'Vuex', 'Pinia', 'Jest', 'Vuetify', 'Quasar', 'C#', '.NET', 'Python', 'KonvaJs', 'Canvas', 'HTML5', 'CSS', 'SCSS', 'SASS'];
-const secondary = ['Git', 'npm', '(yarn/pnpm)', 'Github', 'Gitlab', 'CI/CD', 'Webpack', 'Babel', 'Responsive Design', 'SSR', 'ESR', 'PWA', 'TDD', 'Agile', 'Jira/Confluence', 'ClickUp', 'VSCode', 'Webstorm',]
+const skills = ['VueJs', 'Vue2', 'Vue3', 'Javascript', 'NodeJS', 'Tailwind', 'Bootstrap', 'Typescript', 'Vite', 'Nuxt', 'Vuex', 'Pinia', 'Jest', 'Vuetify', 'Quasar', 'C#', '.NET', 'Python', 'KonvaJs', 'Canvas', 'HTML5', 'CSS', 'SCSS', 'SASS'];
+const secondary = ['Git', 'npm', '(yarn/pnpm)', 'Github', 'Azure', 'Gitlab', 'CI/CD', 'Webpack', 'Babel', 'Responsive Design', 'SSR', 'ESR', 'PWA', 'TDD', 'Agile', 'Jira/Confluence', 'ClickUp', 'VSCode', 'Webstorm',]
 
 const jobs = [
+  {
+    title: 'Staar Surgical',
+    position: 'Senior Software Engineer',
+    description: 'Fullstack development of multiple projects.',
+    startDate: 'June 2024',
+    endDate: 'Current',
+    linkedinLink: 'https://www.linkedin.com/company/staar-surgical'
+  },
   {
     title: 'Lambda Factor',
     position: 'Senior Software Engineer',
@@ -55,7 +63,7 @@ const jobs = [
           SUMMARY
         </h3>
         <p>
-          Dedicated Frontend Engineer with over 4 years of hands-on experience specializing in Vue.js, proficient in both Vue 3 and Vue 2 frameworks. Possesses a strong aptitude for problem-solving, consistently delivering innovative solutions to complex challenges. Known for exemplary work ethic and adeptness in collaborating within team environments. Experienced in diverse project landscapes encompassing various architectural paradigms. Demonstrates a keen ability to adapt and thrive in dynamic work settings while maintaining a high standard of quality and efficiency.
+          Dedicated Frontend Engineer with over 5 years of hands-on experience specializing in Vue.js, proficient in both Composition and Options APIs. Possesses a strong aptitude for problem-solving, consistently delivering innovative solutions to complex challenges. Known for exemplary work ethic and adeptness in collaborating within team environments. Experienced in diverse project landscapes encompassing various architectural paradigms. Demonstrates a keen ability to adapt and thrive in dynamic work settings while maintaining a high standard of quality and efficiency.
         </p>
       </section>
 
@@ -71,22 +79,12 @@ const jobs = [
           </li>
           <li>
             <p>
-              Played a pivotal role in the enhancement and optimization of a custom-fields feature at SenseHawk, contributing to a substantial improvement in user experience and product performance.
-            </p>
-          </li>
-          <li>
-            <p>
-              Led a team of two developers, providing guidance, mentorship, and fostering a collaborative environment conducive to innovation and productivity.
+              Led a team of frontend developers, providing guidance, mentorship, and fostering a collaborative environment conducive to innovation and productivity.
             </p>
           </li>
           <li>
             <p>
               Owned a critical module within projects, showcasing autonomy, responsibility, and a thorough understanding of project components and dependencies.
-            </p>
-          </li>
-          <li>
-            <p>
-              Collaborated closely with product teams and designers to identify and address performance-related issues in Serial Numbers management, resulting in streamlined processes and enhanced system efficiency.
             </p>
           </li>
         </ul>
