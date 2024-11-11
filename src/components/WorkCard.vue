@@ -25,6 +25,10 @@ defineProps({
     type: String,
     default: 'Current',
     // MMM yyyy
+  },
+  type: {
+    type: String,
+    default: 'Full Time',
   }
 })
 </script>
@@ -46,6 +50,9 @@ defineProps({
       <span class="period">
         {{ startDate }} - {{ endDate }}
       </span>
+    </div>
+    <div class="type">
+      <strong>Type:</strong> {{ type }}
     </div>
 
     <div class="position">
@@ -79,5 +86,11 @@ defineProps({
 .period {
   margin-left: 1rem;
   font-weight: 400;
+}
+
+.type {
+  font-weight: 300;
+  font-size: small;
+  margin-bottom: 1rem;
 }
 </style>

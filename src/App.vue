@@ -12,7 +12,8 @@ const jobs = [
     description: 'Fullstack development of multiple projects.',
     startDate: 'June 2024',
     endDate: 'Current',
-    linkedinLink: 'https://www.linkedin.com/company/staar-surgical'
+    linkedinLink: 'https://www.linkedin.com/company/staar-surgical',
+    type: 'Part Time',
   },
   {
     title: 'Lambda Factor',
@@ -20,7 +21,8 @@ const jobs = [
     description: 'Consulting, different types of projects.',
     startDate: 'April 2024',
     endDate: 'Current',
-    linkedinLink: 'https://www.linkedin.com/company/lambdafactor'
+    linkedinLink: 'https://www.linkedin.com/company/lambdafactor',
+    type: 'Part Time',
   },
   {
     title: 'SenseHawk, Inc',
@@ -28,7 +30,8 @@ const jobs = [
     description: 'Module owner. Development of the owned module, integration with other modules, prototyping, planning, components development, development and integration of new features, working with a product and design teams, support of the product.',
     startDate: 'October 2022',
     endDate: 'Feb 2024',
-    linkedinLink: 'https://www.linkedin.com/company/sensehawk'
+    linkedinLink: 'https://www.linkedin.com/company/sensehawk',
+    type: 'Full Time',
   },
   {
     title: 'IntexSoft',
@@ -36,7 +39,8 @@ const jobs = [
     description: 'Variety of different projects, mostly commercial web applications. Several big projects including NFT market platform. Working with different teams, leading a team at some point.',
     startDate: 'September 2020',
     endDate: 'October 2022',
-    linkedinLink: 'https://www.linkedin.com/company/intexsoft'
+    linkedinLink: 'https://www.linkedin.com/company/intexsoft',
+    type: 'Full Time',
   },
   {
     title: 'INSPR',
@@ -44,7 +48,8 @@ const jobs = [
     description: 'Fullstack development of the framework based on React library',
     startDate: 'October 2019',
     endDate: 'September 2020',
-    linkedinLink: 'https://www.linkedin.com/company/insprlabs'
+    linkedinLink: 'https://www.linkedin.com/company/insprlabs',
+    type: 'Full Time',
   }
 ]
 </script>
@@ -131,6 +136,7 @@ const jobs = [
             :start-date="job.startDate"
             :end-date="job.endDate"
             :linkedin-link="job.linkedinLink"
+            :type="job.type"
           />
         </div>
       </section>
